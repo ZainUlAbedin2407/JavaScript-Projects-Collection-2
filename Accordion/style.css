@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  gap: 8rem;
+  height: 90%;
+  width: 1024px;
+  background: linear-gradient(to top right, #0f172a, #0e5a98);
+}
+
+.header {
+  width: 100%;
+}
+
+.header p {
+    text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+
+.header p span {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.hero-section .faq-head {
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 500;
+}
+
+.hero-section .accordion .content-container {
+  background-color: #324156;
+  opacity: 0.7;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.hero-section .accordion .content-container.active {
+  background-color: blue;
+}
+
+.hero-section .accordion .content-container .sub-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section .accordion .content-container p,
+.hero-section .accordion .content-container i {
+  font-size: 18px;
+  color: #8f9eb1;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Smooth color transition */
+}
+
+.hero-section .accordion .content-container i {
+  cursor: pointer;
+}
+
+.hero-section .accordion .content-container.active p,
+.hero-section .accordion .content-container.active i {
+  color: white;
+}
+
+.hero-section .accordion .content-container .panel {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.3s ease; /* Smooth height toggle */
+}
+
+.hero-section .accordion .content-container .panel p {
+  font-size: 15px ;
+  margin-top: 10px ;
+}
