@@ -21,7 +21,7 @@ Welcome to the **JavaScript Projects - Part 2** repository! 🚀 This repository
 
 ### 2. **Project: Calculator**  
 - **Description**: A fully functional calculator with both light and dark modes, a modern UI, and basic arithmetic operations.  
-- **Deployed Link**: [Calculator]()  
+- **Deployed Link**: [Calculator](https://arithmetic-calculator-sigma.vercel.app/)  
 - **Source Code**: [GitHub](./Calculator)  
 
 ---  
