@@ -30,7 +30,7 @@ Welcome to the **JavaScript Projects - Part 2** repository! 🚀 This repository
   - Fetches real-time country data.  
   - Displays country flag and important details.  
   - User-friendly and responsive design.  
-- **Deployed Link**: [Find Your Country]()  
+- **Deployed Link**: [Find Your Country](https://find-your-country-two.vercel.app/)  
 - **Source Code**: [GitHub](./FindYourCountry)  
 
 ---  

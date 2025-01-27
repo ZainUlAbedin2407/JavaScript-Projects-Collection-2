@@ -16,7 +16,7 @@ My Country Information is a simple web application that fetches and displays cou
 - **JavaScript (Vanilla JS)** (API Integration & DOM Manipulation)  
 
 ## 🎬 Live Demo
-🔗 [Live Project](#) _(Add your deployed link here)_
+🔗 [Live Demo](https://find-your-country-two.vercel.app/)
 
 ## 📦 How to Install & Run
 1. **Clone the repository**
