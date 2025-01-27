@@ -22,7 +22,16 @@ Welcome to the **JavaScript Projects - Part 2** repository! 🚀 This repository
 ### 2. **Project: Calculator**  
 - **Description**: A fully functional calculator with both light and dark modes, a modern UI, and basic arithmetic operations.  
 - **Deployed Link**: [Calculator](https://arithmetic-calculator-sigma.vercel.app/)  
-- **Source Code**: [GitHub](./Calculator)  
+- **Source Code**: [GitHub](./Calculator) 
+
+### 3. **Find Your Country 🌍**  
+- **Description**: A country search tool that fetches real-time data using the REST Countries API. It displays the country’s flag, name, capital, population, borders, and languages.  
+- **Features**:  
+  - Fetches real-time country data.  
+  - Displays country flag and important details.  
+  - User-friendly and responsive design.  
+- **Deployed Link**: [Find Your Country]()  
+- **Source Code**: [GitHub](./FindYourCountry)  
 
 ---  
 

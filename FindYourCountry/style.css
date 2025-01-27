@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e17564;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 40px;
+  background-color: #be3144;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 6px 6px 20px #000000;
+}
+
+.input input,
+.input i {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #09122c;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.input i {
+  cursor: pointer;
+}
+
+.input input::placeholder {
+  color: #09122c;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.input input {
+  width: 100%;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 400px;
+  min-height: 400px;
+  background-color: #be3144;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 6px 6px 20px #000000;
+}
+
+.output img {
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+
+.output h2,
+.output p {
+  color: #09122c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.output span {
+  color: #09122c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 450px) {
+  .input,
+  .output {
+    width: 300px;
+  }
+}
