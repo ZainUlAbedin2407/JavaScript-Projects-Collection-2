@@ -563,7 +563,7 @@ footer {
   position: absolute;
   top: 0px;
   right: 0px;
-  margin: 80px 0px 20px 0px;
+  margin: 80px 200px 20px 0px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   letter-spacing: 0.00938em;
@@ -575,7 +575,7 @@ footer {
 
 .email {
   top: 40px;
-  margin: 80px 0px 0px 0px;
+  margin: 80px 80px 0px 0px;
   font-weight: 300;
 }
 
