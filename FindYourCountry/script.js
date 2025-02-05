@@ -20,8 +20,10 @@ const fetchCountryData = () => {
       }
 
       return response.json();
+      
     })
     .then((data) => {
+      
       result.style.display = "flex";
       let country = data[0];
 
