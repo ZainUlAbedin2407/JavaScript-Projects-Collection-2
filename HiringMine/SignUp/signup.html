@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiring Mine</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="container">
+      <div id="logo">
+        <img
+          src="/Assets/Hiring Mine Logo.png"
+          alt="Logo"
+          style="width: 200px; height: 36px; cursor: pointer"
+        />
+      </div>
+    </nav>
+
+    <!-- Form -->
+    <div class="form-container">
+      <div class="form">
+        <div class="header">
+          <h3>LET’S GET STARTED</h3>
+          <p>
+            Create an account to get recommended jobs that match your resume
+            andapply to multiple jobs in seconds!
+          </p>
+        </div>
+        <div class="input-section">
+          <div class="input-elements">
+            <input required id="username" type="text" placeholder="User Name" />
+            <div
+              id="isUser"
+              style="margin-top: -25px;"
+            ></div>
+            <input
+              required
+              id="firstname"
+              type="text"
+              placeholder="First Name"
+            />
+            <div
+            id="isFirstName"
+            style="margin-top: -25px;"
+          ></div>
+            <input required id="lastname" type="text" placeholder="last Name" />
+            <div
+            id="isLastName"
+            style="margin-top: -25px;"
+          ></div>
+            <input
+              required
+              id="email"
+              type="email"
+              placeholder="Enter Email Address"
+            />
+            <div
+            id="isEmail"
+            style="margin-top: -25px;"
+          ></div>
+            <div class="password">
+              <input
+                id="password"
+                class="passwordField"
+                type="password"
+                placeholder="Enter Password"
+                required
+              /><i class="fa-solid fa-eye eye-icon"></i>
+              <div id="passwordCheck" style="position: absolute"></div>
+            </div>
+
+            <div class="password">
+              <input
+                id="confirmPassword"
+                class="passwordField"
+                type="password"
+                placeholder="Confirm Password"
+                required
+              />
+              <i class="fa-solid fa-eye eye-icon"></i>
+              <div id="isPasswordMatch" style="position: absolute"></div>
+            </div>
+            <p class="form-guidelines">
+              By clicking Agree & Join, you agree to the Hiring Mine User
+              Agreement, Privacy Policy, and Cookie Policy.
+            </p>
+            <button id="signUpBtn">Agree & Join</button>
+          </div>
+        </div>
+        <div class="seperator">
+          <div></div>
+          <p>or</p>
+          <div></div>
+        </div>
+        <div class="sign-with-google">
+          <button>
+            <img src="/Assets/google.png" alt="Google" />
+            <p>Sign up with Google</p>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p class="ask-login">Already on Hiring Mine? <span><a href="/Login/login.html">Login</a></span></p>
+
+    <script src="firebase.js" type="module"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
