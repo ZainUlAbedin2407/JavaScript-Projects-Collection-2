@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 
-.container {
+.navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +67,7 @@ body {
   .menu-icon {
     display: block;
   }
-  .container {
+  .navbar-container {
     padding: 0px 20px;
   }
 }
@@ -352,7 +352,7 @@ body {
   text-align: center;
   font-weight: 600;
   color: #3f3f3f;
-  font-size: 24px;
+  font-size: 42px;
   line-height: 1.167;
   letter-spacing: 0em;
 }
@@ -372,13 +372,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.00938em;
   color: rgb(49, 49, 49);
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
 .dream-job-detail {
   text-align: center;
-  width: 64%;
+  /* width: 64%; */
 }
 
 .boxes {
@@ -647,18 +647,28 @@ footer {
   .head-dream-job,
   .connect-with-people,
   .PYJ {
-    font-size: 14px;
+    font-size: 18px;
   }
   .hired-detail,
   .dream-job-detail {
-    font-size: 10px;
+    font-size: 12px;
   }
-  
-  .hiring-mine-logo2, .logo-detail, .follow-us, .social-logos, .contact-us, .email  {
-    margin-left:40px !important;
+  .dream-job-detail {
+    padding: 0px 20px;
   }
 
-  .copyright, .policy, .terms {
+  .hiring-mine-logo2,
+  .logo-detail,
+  .follow-us,
+  .social-logos,
+  .contact-us,
+  .email {
+    margin-left: 40px !important;
+  }
+
+  .copyright,
+  .policy,
+  .terms {
     font-size: 14px;
   }
 }
@@ -708,5 +718,116 @@ footer {
     width: 100%;
     padding-right: 10px;
   }
-  
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding: 10px;
+  scrollbar-width: none; /* Firefox ke liye scrollbar hide */
+  -ms-overflow-style: none;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  gap: 40px;
+  min-height: 250px;
+  min-width: 100%;
+  width: 350px;
+  background: #fff;
+  box-shadow: 0 6px 12px #0000001a;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.division1 {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.company p {
+  color: #000;
+  font-weight: 500;
+  font-size: 19px;
+  margin: 0px;
+  letter-spacing: 0.00938em;
+}
+
+.division1 .profession,
+.division2 .location {
+  margin: 0;
+  font-weight: 600;
+  color: #000;
+}
+
+.division1 .salary {
+  margin: 0;
+  color: rgb(77, 59, 219);
+  font-weight: 600;
+  letter-spacing: 0.00938em;
+}
+
+.division2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+  width: 100%;
+}
+
+.division2 .views {
+  margin: 0;
+  text-align: right;
+}
+
+.dateAndAuthor {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dateAndAuthor .date {
+  margin: 0;
+  color: #8d8e91;
+  font-weight: 600;
+}
+
+.dateAndAuthor .author {
+  margin: 0;
+  color: #5b5b5c;
+  font-weight: 600;
+}
+
+.dateAndAuthor .author .author-name {
+  color: rgb(77, 59, 219);
+}
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  background-color: rgb(77, 59, 219);
+  border-radius: 50%;
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
 }
